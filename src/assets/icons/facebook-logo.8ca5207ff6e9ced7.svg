@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40.001" viewBox="0 0 40 40.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.991" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e69a2"/>
+      <stop offset="1" stop-color="#3b5998"/>
+    </linearGradient>
+  </defs>
+  <g id="facebook-svgrepo-com" transform="translate(0 0.001)">
+    <rect id="view-box" width="40" height="40" fill="none"/>
+    <path id="Shape" d="M22.38,39.845h0V26.309h4.714l.708-5.332H22.38v-3.4c0-1.557.462-2.6,2.711-2.6h2.9v-4.77A39.862,39.862,0,0,0,23.767,10a6.536,6.536,0,0,0-7.042,7.048v3.931H12v5.332h4.728V39.721a19.993,19.993,0,1,1,5.658.124Z" transform="translate(0.006 -0.002)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
