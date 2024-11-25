@@ -26,16 +26,13 @@ export class InplayComponent {
 
   getInplayData(){
     this._myservice.myInplayData().subscribe((res)=>{
-      console.log("inplay data --->",res)
+      
      this.apiResp=res
 
   this.sockerArray=this.apiResp.filter((item)=> {return item?.sportid == 1})
   this.tennisArray==this.apiResp.filter((item)=> {return item?.sportid == 2})
   this.cricketArray =this.apiResp.filter((item)=> {return item?.sportid == 4})
 
-  console.log("this.sockerArray --->",this.sockerArray)
-  console.log("this.tennisArray --->",this.tennisArray)
-  console.log(" this.cricketArray --->",this.cricketArray)
       
     },(error)=>{
       console.log(error) }

@@ -4,7 +4,7 @@
 
     <ng-container *ngFor="let item of apiResp">
        <div class="row-container">
-          <span class="data1">{{item?.time}}</span>
+          <span class="data1">{{item?.time ?? '--'}}</span>
           <div>
             <span class="data3" *ngIf="item?.sportid ==1">Soccer</span>
             <span class="data3" *ngIf="item?.sportid ==4">Cricket</span>

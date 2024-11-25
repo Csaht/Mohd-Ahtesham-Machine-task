@@ -4,7 +4,7 @@
 
     <ng-container >
     
-      <!-- *ngFor="let item of apiResp" -->
+    
        <div class="row-container">
         
 
@@ -16,20 +16,20 @@
 
            <div class="accordian-content" *ngFor="let item of cricketArray">
             <div class="accordian-panel-left">
-               status
+               Data not found
             </div>
             <div class="accordian-panel-right">
-               <!-- <div > -->
+              
                 <span class="p">P</span>
                 <span class="b">B</span>
                 <span class="f">F</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-               <!-- </div> -->
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+               
             </div>
            </div>
            
@@ -37,29 +37,28 @@
            
           </mat-expansion-panel>
         </ng-container>
-
         <ng-container *ngIf="tennisArray.length > 0">
-         <mat-expansion-panel [expanded]="false">
+         <mat-expansion-panel [expanded]="false" style="width: 100%;">
             <mat-expansion-panel-header>
-              <mat-label style="width:200px" (click)="$event.stopPropagation()">Tennis </mat-label>
+              <mat-label style="width:200px" (click)="$event.stopPropagation()">Cricket </mat-label>
           </mat-expansion-panel-header>
 
-           <div class="accordian-content" >
+           <div class="accordian-content" *ngFor="let item of cricketArray">
             <div class="accordian-panel-left">
-               status
+               Data not found
             </div>
             <div class="accordian-panel-right">
-               <!-- <div > -->
+              
                 <span class="p">P</span>
                 <span class="b">B</span>
                 <span class="f">F</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-               <!-- </div> -->
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+               
             </div>
            </div>
            
@@ -69,27 +68,27 @@
         </ng-container>
 
         <ng-container *ngIf="sockerArray.length > 0">
-         <mat-expansion-panel [expanded]="false">
+         <mat-expansion-panel [expanded]="false" style="width: 100%;">
             <mat-expansion-panel-header>
-              <mat-label style="width:200px" (click)="$event.stopPropagation()">Soccer </mat-label>
+              <mat-label style="width:200px" (click)="$event.stopPropagation()">Cricket </mat-label>
           </mat-expansion-panel-header>
 
-           <div class="accordian-content">
+           <div class="accordian-content" *ngFor="let item of cricketArray">
             <div class="accordian-panel-left">
-               status
+               Data not found
             </div>
             <div class="accordian-panel-right">
-               <!-- <div > -->
+              
                 <span class="p">P</span>
                 <span class="b">B</span>
                 <span class="f">F</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-                <span class="sky-box">b</span>
-                <span class="light-pink-box">j</span>
-               <!-- </div> -->
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+                <span class="sky-box">--</span>
+                <span class="light-pink-box">--</span>
+               
             </div>
            </div>
            
@@ -97,6 +96,8 @@
            
           </mat-expansion-panel>
         </ng-container>
+
+      
          
           
        </div> 
